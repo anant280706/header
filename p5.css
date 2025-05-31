@@ -1,0 +1,64 @@
+
+
+
+.header{
+    height: 8px;
+    padding: 40px;
+
+    background-color: rgb(255, 255, 255);
+    border-bottom: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.9px rgba(54, 49, 49, 0.311);
+    align-items: center;
+    
+
+    .left{
+       
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  font-size: 18spx;
+  .contect{
+    list-style: none;
+    text-align: center;
+  }
+  .SERVICE{
+    list-style: none;
+    text-align: center;
+  }
+ .ABOUT{
+    list-style: none;
+    text-align: center;
+ }
+}
+    .center{
+        font-family: monospace;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.842);
+    }
+   
+   .nav{
+   display: flex;
+    align-items: center;
+    
+  margin-left: 1rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.nav button{
+     border-radius: 100px;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+
+
+}
